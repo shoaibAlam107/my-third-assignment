@@ -28,6 +28,7 @@
             colors: {
               clifford: '#ABEF5F',
               'primary-color':'#ABEF5F',
+              
             }
           }
         }
@@ -40,38 +41,33 @@
 </head>
 <body class="Font-manrope">
     <!-- Header section -->
-    <header>
+    <header class="w-auto lg:h[950px]">
        <!-- Navbar Start -->
-        <nav>
+        <nav class="lg:mr-32 lg:ml-32">
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                     
-                      
-                    </ul>
+                  <div>
+
+                    <a class="btn btn-ghost text-xl  font-extrabold">
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline bg-[#ABEF5F] rounded-3xl p-1 ">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg> 
+                      Rinterio
+                    </a>
                   </div>
-                  <a class="btn btn-ghost text-xl">Rinterio</a>
+                  <div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6  lg:hidden">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                  </div>
                 </div>
+                  
+                   
+                    
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
+                    <li><a class=" font-extrabold">Home</a></li>
                     <li><a>Services</a></li>
                     <li><a>Portfolio</a></li>
                     <li><a>Blogs</a></li>
@@ -82,11 +78,23 @@
                 </div>
                    
                 
-                <div class="navbar-end">
-                  <button class="bg-[#ABEF5F] px-5 py-4 rounded-3xl text-xl font-extrabold">
+                <div class="navbar-end ">
+
+                  <div class="lg:flex lg:mx-3 hidden ">
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 mx-3">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                    </svg>
+                  </div>
+                  
+                  
+                  <button class="bg-[#ABEF5F] lg:px-5 lg:py-4 lg:rounded-3xl lg:text-xl lg:font-extrabold lg:block hidden">
                    
                     Book Consult
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline bg-black text-white rounded-full p-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline bg-black text-white rounded-3xl p-1">
                       <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
                     </svg></button>
                     
@@ -95,20 +103,30 @@
         </nav>
         <!-- banner start -->
         <div>
-          <img src="/assets/banner.png" alt="">
-          <h1 class="text-6xl font-extrabold">A barn house of this design has a <br> striking appearance</h1>
-          <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
-          <button class="bg-primary-color bg-opacity-50 px-6 py-3 rounded-3xl font-bold text-xl">
-            View Details
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline bg-[#ABEF5F] rounded-3xl ">
-              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-            </svg>
-          </button>
+          <div>
+            <img class="mx-auto" src="assets/banner.png" alt="">
+
+          </div>
+          <div class="lg:space-y-6 space-y-3  flex flex-col flex-item-center mx-auto lg:mx-auto">
+
+            <h1 class="lg:text-6xl text-3xl font-extrabold lg:w-[1050px] text-center m-auto lg:m-auto">A barn house of this design has a <br> striking appearance</h1>
+
+
+            <p class="font-medium text-sm lg:text-base lg:w-[950px] text-center m-auto">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+
+
+            <button class="lg:w-[200px] bg-primary-color bg-opacity-50 px-6 py-3 rounded-3xl font-bold text-xl m-2 lg:m-auto">
+              View Details
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 inline bg-[#ABEF5F] rounded-3xl p-1 ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+              </svg>
+            </button>
+          </div>
             
         </div>
 
         
-        
+      
    </header>
    <!-- Main section -->
    <main>
